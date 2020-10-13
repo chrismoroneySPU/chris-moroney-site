@@ -4,18 +4,126 @@
     <meta charset="UTF-8">
     <title>Numbers</title>
     <style>
-        * {
-            text-align: center;
+        table {
+            border: 1px solid black;
+            width: 1000px;
+        }
+        th, tr, td {
+            border: 1px solid black;
+            width: 20%;
+        }
+        thead {
+            background-color: black;
+            color: white;
+        }
+        tbody{
+            background-color: white;
+            color: black;
+        }
+        tfoot{
+            background-color: green;
+            color: black;
+        }
+        #firstimage img{
+            width: 1000px
         }
     </style>
 </head>
 <body>
-<p><a href="main.html">Click here to go back to the Chris's Main Page.</a></p>
+<p style="text-align: center;"><a href="main.html">Click here to go back to the Chris's Main Page.</a></p>
 <hr>
 <table>
     <thead>
-
+        <th>n</th>
+        <th>n2</th>
+        <th>n3</th>
+        <th>n!</th>
+        <th>2n</th>
     </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>4</td>
+        <td>8</td>
+        <td>2</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>9</td>
+        <td>27</td>
+        <td>6</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>16</td>
+        <td>64</td>
+        <td>24</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>25</td>
+        <td>125</td>
+        <td>120</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>36</td>
+        <td>216</td>
+        <td>720</td>
+        <td>64</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>49</td>
+        <td>343</td>
+        <td>5040</td>
+        <td>64</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>64</td>
+        <td>512</td>
+        <td>40320</td>
+        <td>256</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>81</td>
+        <td>729</td>
+        <td>362880</td>
+        <td>512</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>100</td>
+        <td>1000</td>
+        <td>3628800</td>
+        <td>1024</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>Lineal</td>
+        <td>Quadratic</td>
+        <td>Cube</td>
+        <td>Factorial</td>
+        <td>Exponential</td>
+    </tr>
+    </tfoot>
 </table>
+<div id="firstimage">
+    <img src="images/firstWords.jpg" alt="first words">
+</div>
 </body>
 </html>
